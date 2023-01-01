@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.nav li {
+    display: inline;
+
+}
+
+nav {
+
+    float: right;
+    width: 100%;
+    margin-top: 0px;
+
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+
+    padding-right: 60%;
+}
+
+li {
+    float: left;
+    text-align: center;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+b {
+    color: white;
+    border-bottom: 2px solid wheat;
+    font-weight: normal;
+
+}
+
+a:hover {
+    background-color: wheat;
+
+}
+
+b:hover {
+    background-color: wheat;
+    color: black;
+}
+
+
+
+
+
+
+.home {
+    padding-top: 80px;
+
+
+    text-align: center;
+    text-align: center;
+
+
+    color: black;
+    text-shadow: 1px 1px #6E7889;
+
+
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+        url(./bacck.jpg)center/cover fixed no-repeat;
+    background-size: cover;
+}
+
+
+
+.col-9 {
+    width: 75%;
+}
+
+label {
+    margin: 10px;
+    color: wheat;
+}
+
+#input {
+    margin: 0px 15px 15px 15px;
+}
+
+
+
+
+
+h2 {
+    text-align: center;
+    margin: 0px 15px 15px 15px;
+    color: white;
+}

@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./bacck.jpg);
+
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+i {
+    text-shadow: 2px 4px 6px rgb(48, 47, 47);
+    color: wheat;
+}
+
+.signupSection {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .5);
+}
+
+.info {
+    width: 45%;
+    background: rgba(20, 20, 20, .8);
+    padding: 30px 0;
+    border-right: 5px solid rgba(81, 77, 77, 0.8);
+}
+
+#create-account-form {
+    width: 400px;
+    padding: 20px;
+    text-transform: uppercase;
+
+}
+
+h2 {
+
+
+    text-align: center;
+    color: #F3C693;
+
+    font-size: 35px;
+    font-family: initial;
+}
+
+.inputFields {
+    margin: 10px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgb(181, 191, 191);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .2);
+    color: white;
+    outline: none;
+}
+
+
+
+.title {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    list-style-type: none;
+    padding: 0;
+}
+
+.input-group {
+
+    position: relative;
+}
+
+.input-group label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.error input {
+    border: 1px red solid;
+}
+
+.success input {
+    border: 3px green solid;
+}
+
+.input-group i {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    visibility: hidden;
+}
+
+
+
+
+
+.input-group p {
+    font-size: 14px;
+    color: red;
+    visibility: hidden;
+}
+
+.error p {
+    visibility: visible;
+}
+
+.btn {
+    width: 50%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 15px 90px;
+    background: #F3C693;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+
+/*.btn {
+    margin: 15px 0px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: chocolate;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}*/

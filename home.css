@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.nav li {
+    display: inline;
+
+}
+
+nav {
+
+    float: right;
+    width: 100%;
+    margin-top: 0px;
+
+}
+
+ul {
+    list-style-type: none;
+
+    overflow: hidden;
+
+    padding-left: 60%;
+}
+
+li {
+    float: left;
+
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+b {
+    color: white;
+    border-bottom: 2px solid wheat;
+    font-weight: normal;
+
+}
+
+a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+b:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.home {
+    padding-top: 100px;
+    height: 700px;
+    text-align: center;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+        url(./bacck.jpg)center/cover fixed no-repeat;
+
+    color: black;
+    text-shadow: 1px 1px #6E7889;
+
+}
+
+#header-text {
+
+    color: wheat;
+    font-family: "Anton", sans-serif;
+    font-weight: bolder;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+    background-color: rgba(0.5, 0, 0, 0.5);
+    padding: 200px;
+    border-radius: 15px;
+    margin: 10px 70px;
+
+
+}
+
+img {
+    margin: 0px 0px 15px 0px;
+}
+
+h5 {
+    color: wheat;
+}
+
+h6 {
+    color: rgb(53, 50, 46);
+}
+
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+h3 {
+    padding: 30px;
+
+    text-align: center;
+    color: #B0B0B0;
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.transparent {
+    background-size: cover;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(./back2.jpg)center/cover fixed no-repeat;
+    padding: 60px 0;
+    color: white;
+
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="courses.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<style>
+    .hide {
+        display: none;
+    }
+</style>
+
+<body>
+    <nav class="nav">
+
+        <ul id="ul">
+            <li id="li"><a href="home.html"><b>home</b></a></li>
+            <li id="li"><a href="courses.html">courses</a></li>
+            <li id="li"><a href="">about</a></li>
+
+
+        </ul>
+
+    </nav>
+
+
+    <div class="home">
+
+        <div class="container d-flex mt-5" id="container">
+            <div class="asidBar col-3">
+                <input type="text" placeholder="Search" class="form-control" id="input" onkeyup="CheckBySearch()">
+                <h2>Category</h2>
+
+                <label class="cat" id="ALL">all</label><br>
+                <label class="cat" id="HTML" onclick="checkCategory('HTML')">HTML</label><br>
+                <label class="cat" id="CSS" onclick="checkCategory('CSS')">CSS</label><br>
+                <label class="cat" id="JS" onclick="checkCategory('JS')">Js</label><br>
+                <label class="cat" id="PHP" onclick="checkCategory('PHP')">PHP</label><br>
+
+                <h2>Price</h2>
+                <input type="range" min='0' max="100" id="price"> <br>
+                <label>price:<span id="showprice"></span>
+                </label>
+
+            </div>
+
+            <div class="courses col-9 d-flex flex-wrap justify-content-around" style="background-color: transparent;">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="courses.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
